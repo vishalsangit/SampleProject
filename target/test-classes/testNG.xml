@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="OrangeHRMSuite">
+	<listeners>
+		<listener class-name="com.orangeHRM.listeners.TestListener"></listener>
+	</listeners>
+	<test name="OrangeHRMTest">
+		<classes>
+			<class name="com.orangehrm.test.DummyClass"></class>
+			<class name="com.orangehrm.test.LoginPageTest"></class>
+			<class name="com.orangehrm.test.DBTest"></class>
+			<class name="com.orangehrm.test.APITest"></class>
+		</classes>
+	</test>
+</suite>
