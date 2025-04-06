@@ -21,13 +21,13 @@ public class DummyClassTest extends BaseClass {
 
 		System.out.println(username);
 		System.out.println(password);
-		SoftAssert asser = new SoftAssert();
+		SoftAssert softAssert = new SoftAssert();
 		ExtentManager.startTest("titleMatch");
 		Thread.sleep(5000);
-		asser.assertTrue(driver.getTitle().equals("OrangeHRM"), "title matches");
+		softAssert.assertTrue(driver.getTitle().equals("OrangeHRM"), "title matches");
 		logger.info("Title matches");
 		ExtentManager.logPass(driver.getTitle().equals("OrangeHRM"), driver, "Title matches");
-		asser.assertAll();
+		softAssert.assertAll();
 
 	}
 }
