@@ -21,7 +21,7 @@ pipeline {
         stage('Reports') {
             steps {
                 publishHTML(target: [
-                    reportDir: 'src/test/resources/ExtentReport',  
+                    reportDir: 'src/test/resources/ExtentReports',  
                     reportFiles: 'ExtentReport.html',  
                     reportName: 'Extent HTML Report'
                 ])
