@@ -57,7 +57,7 @@ success {
 
         <p><b>Build log is attached.</b></p>
 
-        <p><b>Extent Report:</b> <a href="http://localhost:8080/job/SampleProject/HTML_20Extent_20Report/">Click here</a></p>
+        <p><b>Extent Report:</b> <a href="http://localhost:8080/job/SampleProject_pipeline/lastSuccessfulBuild/artifact/src/test/resources/ExtentReports/">Click here</a></p>
 
         <p>Best regards,</p>
         <p><b>Automation Team</b></p>
@@ -93,7 +93,7 @@ failure {
 
         <p><b>Please check the logs and take necessary actions.</b></p>
 
-        <p><b>Extent Report (if available):</b> <a href="http://localhost:8080/job/SampleProject/HTML_20Extent_20Report/">Click here</a></p>
+        <p><b>Extent Report (if available):</b> <a href="http://localhost:8080/job/SampleProject_pipeline/lastSuccessfulBuild/artifact/src/test/resources/ExtentReports/">Click here</a></p>
 
         <p>Best regards,</p>
         <p><b>Automation Team</b></p>
