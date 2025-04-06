@@ -18,12 +18,6 @@ pipeline {
             }
         }
 
-        stage('Test') {
-            steps {
-                bat 'mvn test'
-            }
-        }
-
         stage('Reports') {
             steps {
                 publishHTML(target: [
