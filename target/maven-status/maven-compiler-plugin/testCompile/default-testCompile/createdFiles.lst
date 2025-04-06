@@ -1,0 +1,4 @@
+com\orangehrm\test\APITest.class
+com\orangehrm\test\DummyClass.class
+com\orangehrm\test\DBTest.class
+com\orangehrm\test\LoginPageTest.class

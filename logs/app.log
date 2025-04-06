@@ -172,3 +172,16 @@ user logout
 2025-04-06 11:25:35 [main] INFO  com.orangehrm.test.LoginPageTest - User logged in
 2025-04-06 11:25:37 [main] INFO  com.orangehrm.test.LoginPageTest - Home Page loaded and Admin tab is visible
 2025-04-06 11:25:44 [main] INFO  com.orangehrm.test.LoginPageTest - user logout
+2025-04-06 13:53:10 [main] INFO  com.orangehrm.test.LoginPageTest - User logged in
+2025-04-06 13:53:13 [main] INFO  com.orangehrm.test.LoginPageTest - Home Page loaded and Admin tab is visible
+2025-04-06 13:53:19 [main] INFO  com.orangehrm.test.LoginPageTest - user logout
+2025-04-06 13:54:32 [main] INFO  com.orangehrm.test.LoginPageTest - User logged in
+2025-04-06 13:54:34 [main] INFO  com.orangehrm.test.LoginPageTest - Home Page loaded and Admin tab is visible
+2025-04-06 13:54:40 [main] INFO  com.orangehrm.test.LoginPageTest - user logout
+2025-04-06 13:55:44 [main] INFO  com.orangehrm.test.LoginPageTest - User logged in
+2025-04-06 13:55:46 [main] INFO  com.orangehrm.test.LoginPageTest - Home Page loaded and Admin tab is visible
+2025-04-06 13:55:53 [main] INFO  com.orangehrm.test.LoginPageTest - user logout
+2025-04-06 13:56:12 [main] INFO  com.orangehrm.test.DummyClass - Title matches
+2025-04-06 13:56:21 [main] INFO  com.orangehrm.test.LoginPageTest - User logged in
+2025-04-06 13:56:23 [main] INFO  com.orangehrm.test.LoginPageTest - Home Page loaded and Admin tab is visible
+2025-04-06 13:56:30 [main] INFO  com.orangehrm.test.LoginPageTest - user logout
