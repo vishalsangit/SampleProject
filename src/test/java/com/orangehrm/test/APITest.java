@@ -27,7 +27,8 @@ public class APITest extends BaseClass {
 	@Test
 	public void verifyAPITest(Method m) throws InterruptedException {
 
-		SoftAssert asser = new SoftAssert();
+		
+		SoftAssert sassert = new SoftAssert();
 		ExtentManager.startTest(m.getName());
 		String endPoint = "https://jsonplaceholder.typicode.com/users/1";
 		Response resp = APIUtility.sendGetRquest(endPoint);
@@ -37,12 +38,12 @@ public class APITest extends BaseClass {
 		System.out.println("response body "+resp.body().asString());
 		System.out.println(resp.jsonPath().getString("username"));
 		System.out.println(resp.jsonPath().getString("address.street"));
-		asser.assertEquals(resp.getStatusCode(), 200, "code matches");
-		asser.assertEquals(resp.jsonPath().getString("username"), "Bret", "username not matches");
+		sassert.assertEquals(resp.getStatusCode(), 200, "code matches");
+		sassert.assertEquals(resp.jsonPath().getString("username"), "Bret", "username not matches");
 		//MatcherAssert.assertThat(resp.jsonPath().getString("username"), equalTo("Bret"));
 		ExtentManager.logPass(resp.getStatusCode()==200,driver, "API returned status code 200");
 		ExtentManager.logPass(resp.jsonPath().getString("username").equals("Bret"),driver, "username not matches");
-		asser.assertAll();
+		sassert.assertAll();
 		
 	}
 }
