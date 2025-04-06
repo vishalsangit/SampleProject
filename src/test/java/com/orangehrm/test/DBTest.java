@@ -14,7 +14,7 @@ import com.orangeHRM.utilities.ExtentManager;
 
 public class DBTest extends BaseClass {
 
-	public static Logger logger = LogManager.getLogger(DummyClass.class.getName());
+	public static Logger logger = LogManager.getLogger(DBTest.class.getName());
 
 	@Test(dataProvider = "DataProvider", dataProviderClass = DataProviders.class)
 	public void dbData(String username, String password) throws InterruptedException {

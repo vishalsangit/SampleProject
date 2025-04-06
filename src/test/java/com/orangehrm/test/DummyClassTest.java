@@ -12,9 +12,9 @@ import com.orangeHRM.utilities.DataProviders;
 import com.orangeHRM.utilities.ExtentManager;
 import com.orangeHRM.utilities.RetryAnalyzer;
 
-public class DummyClass extends BaseClass {
+public class DummyClassTest extends BaseClass {
 
-	public static Logger logger = LogManager.getLogger(DummyClass.class.getName());
+	public static Logger logger = LogManager.getLogger(DummyClassTest.class.getName());
 
 	@Test(dataProvider = "DataProvider", dataProviderClass = DataProviders.class)
 	public void titleMatch(String username, String password) throws InterruptedException {
