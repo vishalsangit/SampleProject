@@ -26,7 +26,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Test Execution
-      run: mvn clean test
+      run: mvn -B clean test
     - name: Get List of Files
       run: ls -a
     - name: What is in the target folder
