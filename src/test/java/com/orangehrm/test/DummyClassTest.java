@@ -20,7 +20,6 @@ public class DummyClassTest extends BaseClass {
 	public void titleMatch(String username, String password) throws InterruptedException {
 
 		System.out.println(username);
-		
 		System.out.println(password);
 		SoftAssert softAssert = new SoftAssert();
 		ExtentManager.startTest("titleMatch");
